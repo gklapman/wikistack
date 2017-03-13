@@ -1,0 +1,23 @@
+{
+  "name": "Wikistack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon nodemon -e html,js,css /Users/gabiklapman/Fullstack/Wikistack/app.js"
+  },
+  "author": "Gabi Klapman gabiklapman@gmail.com",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "fs": "0.0.1-security",
+    "morgan": "^1.8.1",
+    "nodemon": "^1.11.0",
+    "nunjucks": "^3.0.0",
+    "path": "^0.12.7",
+    "pg": "^6.1.4",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^3.30.2"
+  }
+}
